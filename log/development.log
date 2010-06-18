@@ -1,0 +1,797 @@
+/!\ FAILSAFE /!\  Wed Jun 16 19:45:17 -0300 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /var/lib/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 20:09:21) [GET]
+Rendering hello/world
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 20:18:00) [GET]
+Rendering hello/world
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 21:06:44) [GET]
+Rendering hello/world
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 21:07:23) [GET]
+Rendering hello/world
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 21:07:33) [GET]
+Rendering hello/world
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing HelloController#world (for 127.0.0.1 at 2010-06-16 21:07:51) [GET]
+Rendering hello/world
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/world]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:18:56) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: Index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:00) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: Index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:02) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: Index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:12) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:17) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:18) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:19:32) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:20:15) [GET]
+
+NameError (undefined local variable or method `time' for #<SaudacaoController:0xb5e548a8>):
+  app/controllers/saudacao_controller.rb:3:in `index'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (25.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:20:20) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:20:42) [GET]
+
+ActionView::MissingTemplate (Missing template saudacao/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:21:15) [GET]
+Rendering saudacao/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:22:05) [GET]
+Rendering saudacao/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:22:07) [GET]
+Rendering saudacao/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:22:22) [GET]
+Rendering saudacao/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:22:59) [GET]
+Rendering saudacao/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:24:09) [GET]
+Rendering saudacao/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:26:47) [GET]
+Rendering saudacao/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:49:32) [GET]
+Rendering template within layouts/default
+Rendering saudacao/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/saudacao/]
+
+
+Processing SaudacaoController#index (for 127.0.0.1 at 2010-06-16 21:51:32) [GET]
+Rendering template within layouts/default
+Rendering saudacao/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/saudacao/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (71.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (66.6ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "price" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100617011047')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('assasd', 20.0, '2010-06-17 01:43:36', '2010-06-17 01:43:36')[0m
+  [4;36;1mProduct Create (0.2ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('ass346345asd', 22.0, '2010-06-17 01:43:46', '2010-06-17 01:43:46')[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" LIMIT 1[0m
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."id" = 1) LIMIT 1[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."id" = 2) LIMIT 1[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."id" = 3) LIMIT 1[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."id" = 4) LIMIT 1[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such column: products.conditions: SELECT "products".id FROM "products" WHERE ("products"."conditions" = 'id > 0') LIMIT 1[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE (id > 0) [0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P1', 1.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P2', 2.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P3', 3.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P4', 4.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P5', 5.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P6', 6.0, '2010-06-17 22:40:46', '2010-06-17 22:40:46')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P7', 7.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P8', 8.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P9', 9.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P10', 10.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P11', 11.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P12', 12.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P13', 13.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P14', 14.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P15', 15.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P16', 16.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P17', 17.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P18', 18.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P19', 19.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P20', 20.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P21', 21.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P22', 22.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P23', 23.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P24', 24.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P25', 25.0, '2010-06-17 22:40:47', '2010-06-17 22:40:47')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P26', 26.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P27', 27.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P28', 28.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P29', 29.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P30', 30.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P31', 31.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P32', 32.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P33', 33.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P34', 34.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P35', 35.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P36', 36.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P37', 37.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P38', 38.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P39', 39.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P40', 40.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P41', 41.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P42', 42.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P43', 43.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P44', 44.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P45', 45.0, '2010-06-17 22:40:48', '2010-06-17 22:40:48')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P46', 46.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P47', 47.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P48', 48.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P49', 49.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P50', 50.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P51', 51.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P52', 52.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P53', 53.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P54', 54.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P55', 55.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P56', 56.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P57', 57.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P58', 58.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P59', 59.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P60', 60.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P61', 61.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P62', 62.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P63', 63.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P64', 64.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P65', 65.0, '2010-06-17 22:40:49', '2010-06-17 22:40:49')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P66', 66.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P67', 67.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P68', 68.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P69', 69.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P70', 70.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P71', 71.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P72', 72.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P73', 73.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P74', 74.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P75', 75.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P76', 76.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P77', 77.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P78', 78.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P79', 79.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P80', 80.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P81', 81.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P82', 82.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P83', 83.0, '2010-06-17 22:40:50', '2010-06-17 22:40:50')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P84', 84.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P85', 85.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P86', 86.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P87', 87.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P88', 88.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P89', 89.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P90', 90.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P91', 91.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P92', 92.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P93', 93.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P94', 94.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P95', 95.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P96', 96.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P97', 97.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P98', 98.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P99', 99.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES('P100', 100.0, '2010-06-17 22:40:51', '2010-06-17 22:40:51')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
+  [4;35;1mProduct Load (1.5ms)[0m   [0mSELECT * FROM "products" WHERE (price < 50) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE (price < 50) [0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mTeste Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: testes: SELECT * FROM "testes" LIMIT 1[0m
+  [4;36;1mInstructor Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: instructors: SELECT * FROM "instructors" LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100617230846)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100617230846')[0m
+Migrating to CreateTestes (20100617231434)
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "testes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100617231434')[0m
+Migrating to CreateInstructors (20100617231630)
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "instructors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100617231630')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("instructors")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("students")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("testes")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100617232401)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100617232401)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100617232531)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100617232612)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "students" already exists: CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "course" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("instructors")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("students")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("testes")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("instructors")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("students")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("testes")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (86.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (74.9ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "price" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100617011047')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100618000006)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "course" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618000006')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("students")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100618000006)
+Migrating to CreateCountries (20100618000621)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "countries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618000621')[0m
+Migrating to CreateStates (20100618000840)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "country_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618000840')[0m
+Migrating to CreateCities (20100618000903)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "cities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "state_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618000903')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("states")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("students")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "updated_at") VALUES('Brasil', '2010-06-18 00:20:18', '2010-06-18 00:20:18')[0m
+  [4;36;1mState Create (0.2ms)[0m   [0;1mINSERT INTO "states" ("name", "created_at", "updated_at", "country_id") VALUES('Rio Grande do Sul', '2010-06-18 00:21:19', '2010-06-18 00:21:19', 1)[0m
+  [4;35;1mState Create (0.2ms)[0m   [0mINSERT INTO "states" ("name", "created_at", "updated_at", "country_id") VALUES('Santa Catarina', '2010-06-18 00:21:53', '2010-06-18 00:21:53', 1)[0m
+  [4;36;1mState Create (0.2ms)[0m   [0;1mINSERT INTO "states" ("name", "created_at", "updated_at", "country_id") VALUES('Paraná', '2010-06-18 00:22:04', '2010-06-18 00:22:04', 1)[0m
+  [4;35;1mCity Create (0.2ms)[0m   [0mINSERT INTO "cities" ("name", "created_at", "updated_at", "state_id") VALUES('Porto alegre', '2010-06-18 00:23:57', '2010-06-18 00:23:57', 1)[0m
+  [4;36;1mCity Create (0.2ms)[0m   [0;1mINSERT INTO "cities" ("name", "created_at", "updated_at", "state_id") VALUES('Porto alegr', '2010-06-18 00:24:13', '2010-06-18 00:24:13', 1)[0m
+  [4;35;1mCity Update (0.2ms)[0m   [0mUPDATE "cities" SET "updated_at" = '2010-06-18 00:24:40', "name" = 'Viamao' WHERE "id" = 2[0m
+  [4;36;1mCity Update (0.2ms)[0m   [0;1mUPDATE "cities" SET "updated_at" = '2010-06-18 00:24:56', "name" = 'Viamão' WHERE "id" = 2[0m
+  [4;35;1mState Load (0.3ms)[0m   [0mSELECT * FROM "states" WHERE ("states".country_id = 1) [0m
+  [4;36;1mState Load (0.2ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries"."id" = 1) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20100617011047)
+Migrating to CreateStudents (20100618000006)
+Migrating to CreateCountries (20100618000621)
+Migrating to CreateStates (20100618000840)
+Migrating to CreateCities (20100618000903)
+Migrating to CreateClients (20100618005031)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "razao_social" varchar(255), "cnpj" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618005031')[0m
+Migrating to CreateContacts (20100618005129)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "contacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "position" varchar(255), "name" varchar(255), "phone" varchar(255), "Client_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100618005129')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("cities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("clients")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("contacts")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("states")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("students")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mClient Create (0.4ms)[0m   [0mINSERT INTO "clients" ("created_at", "updated_at", "cnpj", "razao_social") VALUES('2010-06-18 00:58:35', '2010-06-18 00:58:35', '99.999.999/0001-99', 'teste')[0m
+  [4;36;1mClient Create (0.2ms)[0m   [0;1mINSERT INTO "clients" ("created_at", "updated_at", "cnpj", "razao_social") VALUES('2010-06-18 00:58:57', '2010-06-18 00:58:57', '88.888.888/0001-88', 'teste2')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mClient Load (0.2ms)[0m   [0mSELECT * FROM "clients" LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
